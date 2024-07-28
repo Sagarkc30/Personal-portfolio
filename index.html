@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagar K C Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('home')">Home</a></li>
+            <li><a href="#" onclick="showSection('summary')">Summary</a></li>
+            <li><a href="#" onclick="showSection('internship')">Internship</a></li>
+            <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+            <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+            <li><a href="#" onclick="showSection('education')">Education</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h1>Welcome to Sagar K C's Portfolio</h1>
+            <p>This is the home page. Use the navigation bar to browse different sections of my portfolio.</p>
+        </section>
+        <section id="summary" class="hidden">
+            <h1>Summary</h1>
+            <p>Seeking an entry-level position in a reputable company where I can apply my skills and knowledge to contribute to the success of the organization, while gaining valuable experience and professional growth.</p>
+        </section>
+        <section id="internship" class="hidden">
+            <h1>Internship</h1>
+            <h2>Full Stack Developer Intern</h2>
+            <p>Sep 2023 - Oct 2023</p>
+            <p>I worked as a Full Stack Intern at Alt Digital Technologies, Sirsi where we developed a LinkedIn clone API called ’BlinkedIn.’ This project aimed to replicate the functionalities of the LinkedIn website. For the frontend, we utilized React.js to create dynamic user interfaces. On the backend, we employed Spring Boot to handle server-side logic and API endpoints. For data storage, we utilized MySQL.My role predominantly involved working on the frontend aspect of the application.</p>
+            <h2>Full Stack Development Intern</h2>
+            <p>Aug 2023 - Sep 2023</p>
+            <p>During this internship at Prinston Smart Engineers in Bangalore I underwent a comprehensive learning phase in full stack web development, covering both frontend and backend aspects. Through hands-on experience, I gained proficiency in frontend technologies such as HTML, CSS, and JavaScript, as well as backend development using MongoDB. As a culmination of my learning, I successfully built my portfolio, integrating the skills acquired during the internship program.</p>
+        </section>
+        <section id="projects" class="hidden">
+            <h1>Projects</h1>
+            <h2>Littering Management Using AI</h2>
+            <p>Dec 2023 - Jun 2024</p>
+            <p>In this project, we are building a model with the aim of using AI to detect unauthorized garbage disposal from a moving vehicle. We are employing three YOLOv8 models for vehicle recognition, litter detection, and number plate detection of the littering vehicle, along with EasyOCR for character extraction from the detected number plate. The system will analyze video footage to identify and record instances of littering. Our goal is to create an effective solution to help enforce anti-littering laws and promote cleaner environments.</p>
+            <h2>Educational Chatbot using AI</h2>
+            <p>June 2023 - Aug 2023</p>
+            <p>In this project, we developed a chatbot using Python and AI tools to offer information about our department. Users interact with the system through a predefined manual, which outlines the areas where the chatbot can assist in answering their queries. Leveraging advanced technologies, our chatbot serves as a knowledgeable virtual assistant, enhancing user experience and efficiency. Its intuitive design and comprehensive knowledge base ensure accurate and prompt responses to user inquiries.</p>
+        </section>
+        <section id="skills" class="hidden">
+            <h1>Skills</h1>
+            <ul>
+                <li>Programming Languages: Java, C, Python</li>
+                <li>Web Development Frameworks: HTML, CSS, JavaScript, React.js, Spring Boot</li>
+                <li>Database Management: MySQL, MongoDB</li>
+            </ul>
+        </section>
+        <section id="education" class="hidden">
+            <h1>Education</h1>
+            <p>2020 - 2024: Bachelor Of Engineering in Global Academy Of Technology, Bangalore (CGPA: 7.29)</p>
+            <p>2020: Class 12th at Ananth Pu College, Arsikere (87.83%)</p>
+            <p>2018: Class 10th at Vidyanikethan Public School, Banavara (85.6%)</p>
+        </section>
+    </main>
+</body>
+</html>
